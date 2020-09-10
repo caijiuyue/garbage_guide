@@ -1,0 +1,10 @@
+/* miniprogram/pages/little_knowledge/little_knowledge.wxss */
+.list-content .cu-item{
+  /* justify-content: center; */
+  align-items: center;
+}
+.list-content image{
+  width: 150rpx;
+  height: 150rpx;
+}
+

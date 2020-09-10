@@ -1,0 +1,30 @@
+<!--miniprogram/pages/little_knowledge/harm/harm.wxml-->
+<view>
+  <view class='cu-card'>
+    <view class="cu-item bg-img shadow-blur" style="background-image:url(https://mini-pet.oss-cn-shanghai.aliyuncs.com/public/why_01.jpg)" url='/pages/little_knowledge/harm/harm'>
+    <view class="cardTitle">
+    垃圾有哪些危害？
+    </view>
+    </view>
+  </view>
+  <view class="text-black padding">
+    <view class="text-lg">对人体健康的危害</view>
+    <view class='padding-top'>
+垃圾中，有毒气体随风飘散，空气中二氧化硫、铅含量升高，使呼吸道疾病发病率升高，对人体构成致癌隐患。地下水污染物含量超标，引发腹泻、血吸虫、沙眼，例如，贵阳市发生痢疾流行，其原因是地下水被垃圾渗透，大肠杆菌严重超标引起的。
+    </view>
+    <view class="text-lg padding-top">对经济发展的影响</view>
+    <view class='padding-top'>据调查，中国70%的垃圾存在着利用价值，如果全部回收利用，每年可获利160亿元，对于经济发展和增加就业岗位极为有利。反之，则会造成资源的更大浪费，资源紧张和生态失调局面日趋加重。最终，势必将影响与阻碍经济的顺利发展。
+    </view>
+    <view class="text-lg padding-top">对水环境的污染</view>
+    <view class='padding-top'>
+      垃圾在堆置或填埋工程中，产生大量酸性、碱性，有毒物质、生活排放出来的垃圾含汞、铅、镉等废水，渗透到地表水或地下水造成水体黑臭，地下水浅层不能使用、水质恶化，全国60%的河流存在的氨氮、挥发酚、高锰酸盐污染，氟化物严重超标，水体丧失自净功能，影响水生物繁殖和水资源利用。
+    </view>
+    <view class="text-lg padding-top">对大气环境的污染</view>
+    <view class='padding-top'>在垃圾区，由于焚烧或长时间的堆放，垃圾腐烂霉变，释放出大量恶臭、含硫等有毒气体，粉尘和细小颗粒物随风飞扬，致使空气中二氧化硫悬浮颗粒物超标。酸雨现象扬尘污染频频发生。
+    </view>
+    <view class="text-lg padding-top">侵蚀土地</view>
+    <view class='padding-top'>
+据统计，中国每年产生垃圾30亿吨，约有2万平方米耕地被迫用于堆置存放垃圾。土地退化，荒漠化现象非常严重。更是由于大量塑料袋、废金属等有毒物质直接填埋或遗留土壤中，难以降解严重腐蚀土地，致使土质硬化、碱化保水保肥能力下降，农作物减产，甚至绝产影响农作物质量。
+    </view>
+  </view>
+</view>

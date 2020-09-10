@@ -1,0 +1,26 @@
+<!--miniprogram/pages/little_knowledge/little_knowledge.wxml-->
+<view class="cu-list grid col-4 no-border list-content">
+  <navigator class="cu-item" style="width: 25%" url="/pages/little_knowledge/wet_garbage/wet_garbage">
+    <image src='https://mini-pet.oss-cn-shanghai.aliyuncs.com/public/ico-3.jpg'></image>
+    <text class='d-none'>湿垃圾</text>
+  </navigator>
+  <navigator class="cu-item" style="width: 25%" url="/pages/little_knowledge/dry_garbage/dry_garbage">
+    <image src='https://mini-pet.oss-cn-shanghai.aliyuncs.com/public/ico-4.jpg'></image>
+    <text class='d-none'>干垃圾</text>
+  </navigator>
+  <navigator class="cu-item" style="width: 25%" url="/pages/little_knowledge/recycled_garbage/recycled_garbage">
+    <image src='https://mini-pet.oss-cn-shanghai.aliyuncs.com/public/ico-2.jpg'></image>
+    <text class='d-none'>可回收垃圾</text>
+  </navigator>
+  <navigator class="cu-item" style="width: 25%" url="/pages/little_knowledge/harmful_garbage/harmful_garbage">
+    <image src='https://mini-pet.oss-cn-shanghai.aliyuncs.com/public/ico-1.jpg'></image>
+    <text class='d-none'>有害垃圾</text>
+  </navigator>
+</view>
+<view class='cu-card'>
+  <navigator class="cu-item bg-img shadow-blur" style="background-image:url(https://mini-pet.oss-cn-shanghai.aliyuncs.com/public/why_01.jpg)" url='/pages/little_knowledge/harm/harm'>
+  <view class="cardTitle">
+   垃圾有哪些危害？
+  </view>
+  </navigator>
+</view>

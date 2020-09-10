@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/front_page/front_page",
+    "pages/search/search",
+    "pages/garbage_detail/garbage_detail",
+    "pages/little_knowledge/little_knowledge",
+    "pages/little_knowledge/dry_garbage/dry_garbage",
+    "pages/little_knowledge/harmful_garbage/harmful_garbage",
+    "pages/little_knowledge/recycled_garbage/recycled_garbage",
+    "pages/little_knowledge/wet_garbage/wet_garbage",
+    "pages/little_knowledge/harm/harm"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "垃圾指南",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#12B36D",
+    "list": [
+      {
+        "pagePath": "pages/front_page/front_page",
+        "text": "首页",
+        "iconPath": "/images/nav/front_page.png",
+        "selectedIconPath": "/images/nav/front_page_select.png"
+      },
+      {
+        "pagePath": "pages/little_knowledge/little_knowledge",
+        "text": "小知识",
+        "iconPath": "/images/nav/little_knowledge.png",
+        "selectedIconPath": "/images/nav/little_knowledge_select.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

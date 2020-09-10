@@ -1,0 +1,73 @@
+{
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"appid": "",
+	"projectname": "garbage_guide",
+	"libVersion": "2.2.5",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"compileType": "miniprogram",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 4,
+			"list": [
+				{
+					"id": -1,
+					"name": "db guide",
+					"pathName": "pages/front_page/front_page",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "search",
+					"pathName": "pages/search/search",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 2,
+					"name": "searchdetail",
+					"pathName": "pages/garbage_detail/garbage_detail",
+					"query": "name=餐巾纸袋子&type=1",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "小知识",
+					"pathName": "pages/little_knowledge/little_knowledge",
+					"query": "name=餐巾纸袋子&type=1",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "危害",
+					"pathName": "pages/little_knowledge/harm/harm",
+					"query": "name=餐巾纸袋子&type=1",
+					"scene": null
+				}
+			]
+		}
+	}
+}

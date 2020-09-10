@@ -1,0 +1,29 @@
+<!--miniprogram/pages/front_page/front_page.wxml-->
+<view class='top-nav shadow bg-white'>
+  <view class="cu-bar bg-white">
+    <view class="search-form round">
+      <text class="cuIcon-search"></text>
+      <input type="text" placeholder="搜索垃圾" confirm-type="search" bindfocus="handleToSearch"></input>
+    </view>
+  </view>
+  <scroll-view scroll-x class="bg-white nav scr-nav">
+    <view class="flex text-center">
+      <view data-type="{{item.type}}" class="cu-item flex-sub {{index==TabCur?'text-green cur':''}}" wx:for="{{tabClo}}" wx:key bindtap="tabSelect" data-id="{{index}}">
+        {{item.title}}
+      </view>
+    </view>
+  </scroll-view>
+</view>
+
+<view class="cu-list grid col-3 no-border list-content">
+    <navigator class="cu-item" style="width: 33.33%" wx:for="{{dataset}}"  wx:key wx:if="{{!loading}}" url="/pages/garbage_detail/garbage_detail?type={{item.type}}&name={{item.name}}">
+    <text>{{item.name}} </text>
+    <text class='d-none'>{{format_garbage_type[item.type].title}}</text>
+  </navigator>
+</view>
+<view class='text-gray text-center' wx:if="{{!loading&&dataset&&!dataset.length}}"> 
+  暂无数据
+</view>
+<view class='' wx:if="{{loading}}"> 
+  <view class="cu-load text-green loading"></view>
+</view>

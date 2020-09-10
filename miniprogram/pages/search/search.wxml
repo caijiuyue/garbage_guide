@@ -1,0 +1,18 @@
+<!--miniprogram/pages/search/search.wxml-->
+<view class="cu-bar bg-white fixed">
+  <view class="search-form round">
+    <text class="cuIcon-search"></text>
+    <input type="text" placeholder="搜索垃圾" focus="true" confirm-type="search" bindconfirm="handleSearch"></input>
+  </view>
+</view>
+<view class="cu-list grid col-3 no-border list-content">
+  <navigator class="cu-item" style="width: 33.33%" wx:for="{{dataset}}" open-type="redirect" wx:key wx:if="{{!loading}}" url="/pages/garbage_detail/garbage_detail?type={{item.type}}&name={{item.name}}">
+    <text>{{item.name}}</text>
+  </navigator>
+</view>
+<view class='text-gray text-center' wx:if="{{!loading&&dataset&&!dataset.length}}"> 
+  暂无数据
+</view>
+<view class='' wx:if="{{loading}}"> 
+  <view class="cu-load text-green loading"></view>
+</view>

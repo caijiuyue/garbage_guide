@@ -1,0 +1,39 @@
+<!--miniprogram/pages/little_knowledge/harmful_garbage/harmful_garbage.wxml-->
+<view style='color:#d73723;'>
+  <view class='text-center padding'>
+    <image class='garbage_ico' src="https://mini-pet.oss-cn-shanghai.aliyuncs.com/public/ico-1.jpg"></image>
+  </view>
+  <view class='text-center text-xl'>
+    <text class='text-bold'>有害垃圾</text>
+  </view>
+  <view class="cu-bar bg-white solid-bottom margin-top">
+    <view class="action">
+      <text class="cuIcon-title">什么是有害垃圾</text> 
+    </view>
+  </view>
+  <view class='text-df padding'>
+    <text>对人体健康或者自然环境造成直接或潜在危害的废弃物</text>
+  </view>
+  <view class="cu-bar bg-white solid-bottom margin-top">
+    <view class="action">
+      <text class="cuIcon-title"> 有害垃圾主要包括那些</text>
+    </view>
+  </view>
+  <view class='text-df padding'>
+    <text>废电池、油漆桶、荧光灯管、废药品及其包装物等</text>
+  </view>
+  <view class="cu-bar bg-white solid-bottom margin-top">
+    <view class="action">
+      <text class="cuIcon-title">有害垃圾投放要求</text> 
+    </view>
+  </view>
+  <view class='text-df padding'>
+    <view class='padding-bottom-sm'>
+      <text class='cuIcon-title'>投放时请注意轻放</text>
+    </view>
+    <view class='padding-bottom-sm'>
+      <text class='cuIcon-title'>如易挥发，请密封后投放</text>
+    </view>
+  </view>
+</view>
+

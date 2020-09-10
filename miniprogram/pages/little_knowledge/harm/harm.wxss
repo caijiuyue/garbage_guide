@@ -1,0 +1,4 @@
+/* miniprogram/pages/little_knowledge/harm/harm.wxss */
+.text-lg{
+  font-weight: 500;
+}

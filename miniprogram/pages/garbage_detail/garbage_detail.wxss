@@ -1,0 +1,8 @@
+/* miniprogram/pages/garbage_detail/garbage_detail.wxss */
+.cu-bar.bg-white{
+  color: inherit;
+}
+.garbage_ico{
+  width: 400rpx;
+  height: 400rpx;
+}

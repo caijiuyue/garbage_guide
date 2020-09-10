@@ -1,0 +1,38 @@
+<!--miniprogram/pages/little_knowledge/wet_garbage/wet_garbage.wxml-->
+<view style='color:#653F34;'>
+  <view class='text-center padding'>
+    <image class='garbage_ico' src="https://mini-pet.oss-cn-shanghai.aliyuncs.com/public/ico-3.jpg"></image>
+  </view>
+  <view class='text-center text-xl'>
+    <text class='text-bold'>湿垃圾</text>
+  </view>
+  <view class="cu-bar bg-white solid-bottom margin-top">
+    <view class="action">
+      <text class="cuIcon-title">什么是湿垃圾</text> 
+    </view>
+  </view>
+  <view class='text-df padding'>
+    <text>日常生活垃圾产生的容易腐烂的生物质废弃物</text>
+  </view>
+  <view class="cu-bar bg-white solid-bottom margin-top">
+    <view class="action">
+      <text class="cuIcon-title"> 湿垃圾主要包括那些</text>
+    </view>
+  </view>
+  <view class='text-df padding'>
+    <text>剩菜剩饭、瓜皮果核、花卉绿植、过期食品等</text>
+  </view>
+  <view class="cu-bar bg-white solid-bottom margin-top">
+    <view class="action">
+      <text class="cuIcon-title">湿垃圾投放要求</text> 
+    </view>
+  </view>
+  <view class='text-df padding'>
+    <view class='padding-bottom-sm'>
+      <text class='cuIcon-title'>纯流质的食物垃圾，如牛奶等，应直接倒进下水口</text>
+    </view>
+    <view class='padding-bottom-sm'>
+      <text class='cuIcon-title'>有包装物的湿垃圾应将包装物去除后分类投放，包装物请投放到对应的可回收物或干垃圾容器</text>
+    </view>
+  </view>
+</view>

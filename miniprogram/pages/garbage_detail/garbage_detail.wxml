@@ -1,0 +1,39 @@
+<!--miniprogram/pages/garbage_detail/garbage_detail.wxml-->
+<view wx:if="{{current_garbage_type}}" style="color:{{current_garbage_type.theme_color}}">
+  <view class='text-center padding'>
+    <image class='garbage_ico' src="{{current_garbage_type.ico}}" wx:if="{{current_garbage_type}}"></image>
+  </view>
+  <view class='text-center text-xl'>
+    <text class='text-bold'>{{name}}</text>
+  </view>
+  <view class="cu-bar bg-white solid-bottom margin-top">
+    <view class="action">
+      <text class="cuIcon-title">什么是{{current_garbage_type.title}}</text> 
+    </view>
+  </view>
+  <view class='text-df padding'>
+    <text>{{current_garbage_type.desc}}</text>
+  </view>
+  <view class="cu-bar bg-white solid-bottom margin-top">
+    <view class="action">
+      <text class="cuIcon-title"> {{current_garbage_type.title}}主要包括那些</text>
+    </view>
+  </view>
+  <view class='text-df padding'>
+    <text>{{current_garbage_type.mainly_includes}}</text>
+  </view>
+  <view class="cu-bar bg-white solid-bottom margin-top">
+    <view class="action">
+      <text class="cuIcon-title">{{current_garbage_type.title}}投放要求</text> 
+    </view>
+  </view>
+  <view class='text-df padding'>
+    <view class='padding-bottom-sm' wx:for="{{current_garbage_type.disposal_req}}" wx:key="{{index}}">
+      <text class='cuIcon-title'>{{item}}</text>
+    </view>
+  </view>
+</view>
+
+<view class='' wx:if="{{!current_garbage_type}}"> 
+  <view class="cu-load text-green loading"></view>
+</view>

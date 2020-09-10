@@ -1,0 +1,13 @@
+/* miniprogram/pages/front_page/front_page.wxss */
+.list-content{
+  margin-top: 180rpx;
+}
+.top-nav{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.cu-list.grid>.cu-item text.d-none{
+  display: none;
+}

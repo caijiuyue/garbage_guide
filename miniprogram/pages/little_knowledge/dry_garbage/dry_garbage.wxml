@@ -1,0 +1,38 @@
+<!--miniprogram/pages/little_knowledge/dry_garbage/dry_garbage.wxml-->
+<view style='color:#2A2925;'>
+  <view class='text-center padding'>
+    <image class='garbage_ico' src="https://mini-pet.oss-cn-shanghai.aliyuncs.com/public/ico-4.jpg"></image>
+  </view>
+  <view class='text-center text-xl'>
+    <text class='text-bold'>干垃圾</text>
+  </view>
+  <view class="cu-bar bg-white solid-bottom margin-top">
+    <view class="action">
+      <text class="cuIcon-title">什么是干垃圾</text> 
+    </view>
+  </view>
+  <view class='text-df padding'>
+    <text>除有害垃圾、可回收物、 湿垃圾以外的其他生活废弃物</text>
+  </view>
+  <view class="cu-bar bg-white solid-bottom margin-top">
+    <view class="action">
+      <text class="cuIcon-title"> 干垃圾主要包括那些</text>
+    </view>
+  </view>
+  <view class='text-df padding'>
+    <text>餐盒、餐巾纸、湿纸巾、卫生间用纸、塑料袋、 食品包装袋、污染严重的纸、烟蒂、纸尿裤、 一次性杯子、大骨头、贝壳、花盆、陶瓷等</text>
+  </view>
+  <view class="cu-bar bg-white solid-bottom margin-top">
+    <view class="action">
+      <text class="cuIcon-title">干垃圾投放要求</text> 
+    </view>
+  </view>
+  <view class='text-df padding'>
+    <view class='padding-bottom-sm'>
+      <text class='cuIcon-title'>尽量沥干水分</text>
+    </view>
+    <view class='padding-bottom-sm'>
+      <text class='cuIcon-title'>难以辨识类别的生活垃圾投入干垃圾容器内</text>
+    </view>
+  </view>
+</view>
